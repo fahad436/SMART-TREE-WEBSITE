@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Tree</title>
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="ABOUT-US.html">
+     <link rel="stylesheet" href="PHOTOGRAPY.html">
+       <link rel="stylesheet" href="TUTOR.html">
+         <link rel="stylesheet" href="D-mark-print.html">
+        <link rel="stylesheet" href="index.html">
+           <script src="app.js"></script>
+           <script>
+    // Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDmjaoQry7rEEBNGMTUebxtO2QufhcdBD4",
+  authDomain: "smart-tree-61657.firebaseapp.com",
+  projectId: "smart-tree-61657",
+  storageBucket: "smart-tree-61657.appspot.com",
+  messagingSenderId: "858853663239",
+  appId: "1:858853663239:web:30f912273b71a1cb1fc0a2"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+</head>
+
+<body class="fix">
+     <!-- <----------------------------------------------------->  
+      <nav class="navbar navbar-expand-lg navbar-light bg-light black sticky-top">
+        <div class="container-fluid">
+
+            <a class="navbar-brand " href="index.html"><img src="images/LOGO1.jpg" width="100px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse wah" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+
+                                <li class="nav-item active arrow">
+        <a class="nav-link navbar-brand bar " href="index.html" target="blank">
+             <i class="fa fa-television" style="color: white; margin-right: 4px;"></i>HOME</a>
+                    </li>
+
+                 
+
+                    <li class="nav-item active arrow">
+        <a class="nav-link navbar-brand bar " href="D-mark-print.html" target="blank">
+            <i class="fa fa-eraser" style="color: white; margin-right: 4px;"></i>D.MARKETING & PRINTING</a>
+                    </li>
+
+                    <li class="nav-item active arrow">
+        <a class="nav-link navbar-brand  bar " href="TUTOR.html" target="blank">
+            <i class="fa fa-handshake-o" style="color: white; margin-right: 4px;"></i>TUTOR POINT</a>
+                    </li>
+
+                    <li class="nav-item active arrow">
+        <a class="nav-link navbar-brand bar " href="PHOTOGRAPY.html" target="blank">
+            <i class="fa fa-file-picture-o" style="color: white; margin-right: 4px;"></i>PHOTOGRAPY</a>
+                    </li>
+
+                        <li class="nav-item active arrow">
+        <a class="nav-link navbar-brand bar " href="ABOUT-US.html" target="blank">
+            <i class="fa fa-paypal" style="color: white; margin-right: 4px;"></i>ABOUT US</a>
+                    </li>
+
+                   
+    </ul>
+</div>
+</div>
+</nav>
+  <!-- <----------------------------------------------------->
+
+    <!-- <----------------------------------------------------->
+  <!-- home section starts  -->
+<div class="starter">
+
+<section class="gate" id="gate">
+
+    <div class="content">
+        <span>Smart Tree agency</span>
+        <h3>we make every moment special!</h3>
+        <a href="#" class="butter">learn more</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+  <!-- <----------------------------------------------------->
+
+
+<!-- vendor section starts  -->
+<section class="vendor" id="vendor">
+
+    <div class="headoff">
+        <h1>Portrait PhotoGrapy</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/img3.jpg" alt="">
+            <div class="info">
+                <h3>wedding cake</h3>
+                <p>Birthday cake what a moment.</p>
+               
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img4.jpg" alt="">
+            <div class="info">
+                <h3>venu and hall</h3>
+                <p>Look at the setup and Planning by smart tree.</p>
+            
+            </div>
+        </div>
+    
+    </div>
+
+     <div class="headoff">
+        <h1>top wedding PhotoGrapy</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+<div class="box-container">
+
+        <div class="box">
+            <img src="images/img1.jpg" alt="">
+            <div class="info">
+                <h3>dressing</h3>
+                <p>Resepcion album .</p>
+                
+            </div>
+        </div>
+
+          <div class="box">
+            <img src="images/img2.jpg" alt="">
+            <div class="info">
+                <h3>Florist</h3>
+                <p>make the perfect shoot.</p>
+           
+            </div>
+        </div>
+ 
+</div>       
+
+     <div class="headoff">
+        <h1>Ad Film Shoot</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+<div class="box-container">
+
+         <div class="box">
+            <img src="images/img5.jpg" alt="">
+            <div class="info">
+                <h3>music and party</h3>
+                <p>make the Ad shooting for wedding.</p>
+              
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img6.jpg" alt="">
+            <div class="info">
+                <h3>photographer</h3>
+                <p>shoot by smart tree.</p>
+            
+            </div>
+        </div>
+ 
+</div> 
+
+
+     <div class="headoff">
+        <h1>Landscape PhotoGrapy</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+<div class="box-container">
+
+        <div class="box">
+            <img src="images/pic50.avif" alt="">
+            <div class="info">
+                <h3>Exclusive</h3>
+                <p>the road of Balochistan for the shoot of empty road.</p>
+             
+            </div>
+        </div>
+
+          <div class="box">
+            <img src="images/pic51.avif" alt="">
+            <div class="info">
+                <h3>Deep water</h3>
+                <p>Some where in pakistan try to Landscape shoot.</p>
+           
+            </div>
+        </div>
+ 
+</div> 
+
+     <div class="headoff">
+        <h1>Catalog Shoots</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+<div class="box-container">
+
+        <div class="box">
+            <img src="images/pic52.avif" alt="">
+            <div class="info">
+                <h3>book mela</h3>
+                <p>catalog for Furniture by Habit.</p>
+               
+            </div>
+        </div>
+
+          <div class="box">
+            <img src="images/pic53.avif" alt="">
+            <div class="info">
+                <h3>food Catalog</h3>
+                <p>shoot of Food Catalog Book.</p>
+              
+            </div>
+        </div>
+ 
+</div> 
+     <div class="headoff">
+        <h1>Nature PhotoGrapy</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/pic54.avif" alt="">
+            <div class="info">
+                <h3>Nature</h3>
+                <p>forest photo center to river.</p>
+                
+            </div>
+        </div>
+
+          <div class="box">
+            <img src="images/pic55.avif" alt="">
+            <div class="info">
+                <h3>Nature</h3>
+                <p>sea photo shoot before the sunset.</p>
+                
+            </div>
+        </div>
+ 
+</div> 
+
+</section>
+<!-- vendor section ends -->
+
+
+
+    <div class="ballu">    
+    <div class="container-fluid">
+    <footer class="margin">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2 img-fluid" src="images/LOGO1.jpg" alt="" width="100" height="24">
+      </div>
+      <div class="col-6 col-md RRR">
+        <h5><a class="text-muted settle" href="ABOUT-US.html" target="_blank"> Contact Us</a></h5>
+        <ul class="list-unstyled text-small ">
+          <li><a class="text-muted settle" href="#">Detail</a></li>
+          <li><a class="text-muted settle" href="#">Mention</a></li>
+          <li><a class="text-muted settle" href="#">how can i help you</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md RRR">
+          <ul class="list-unstyled text-small">
+              <h5><a class="text-muted settle" href="https://mail.google.com/" target="_blank"> Email</a></h5>
+              <h5>Linked IN profile</h5>
+              <li><a class="text-muted settle" href="#">M.fahad.chippa@gmail.com</a></li>
+          <li><a class="text-muted settle" href="https://www.linkedin.com/in/fahad-arif-151912227/" target="_blank">fahad-arif linked In</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md RRR">
+        <h5><a class="text-muted settle" href="ABOUT-US.html" target="_blank"> About Us</a></h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted settle" href="#">Team</a></li>
+          <li><a class="text-muted settle" href="#">Locations</a></li>
+          <li><a class="text-muted settle" href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  </div>
+  </div>
+
+<div class="ballu">
+<footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p class="sahi-hai">© 2021 The Smart Tree, Inc.  <a href="#">made by</a> <a href="#">Fahad ...</a></p>
+  </footer>
+  </div>
+    <!-- <----------------------------------------------------->
+</body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</html>
